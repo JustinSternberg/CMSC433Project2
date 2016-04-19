@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#studentform{
+	text-align: center;
+	box-shadow: 5px;
+	border-radius: 10%;
+	background: white;
+	display: inline-block;
+	padding: 10px;
+}
+#submit{
+	background: #66AA44;
+	padding: 20px;
+	border-radius: 10%;
+	color: white;
+	font-size: 16px;
+}
+
+#restart{
+	background: #FF8C00;
+	padding: 20px;
+	border-radius: 10%;
+	color: white;
+	font-size: 16px;
+}
+
+.centerP{
+	text-align: center;
+	width: 675px;
+	height: 200px;
+	border: 1px solid black;
+}
+
+.instructP{
+	text-align: center;
+	width: 675px;
+	height: 70px;
+	border: 1px solid black;
+}
+
+.info{
+	height: 20px;
+}
+
+#login{
+	text-align: center;
+}
+
+#sign{
+	font-size: 20px;
+
+}
+
+#allClasses{
+	max-width: 800px;
+	display: inline-block;
+	float: left;
+	text-align: left;
+}
+
+
+#deleteClasses{
+	max-width: 800px;
+	display: inline-block;
+	float: left;
+	text-align: left;
+}
+
+fieldset{
+	background:white;
+}
+
+legend{
+	background: #F5CA5C;
+}
+
+.class{
+	width: 200px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#classesTaken{
+	display: inline-block;
+	float: right;
+	width:250px;
+	background: white;
+	margin-top: 10px;
+	position: fixed;
+	padding-bottom: 25px;
+	border: 1px solid black;
+}
+
+body {
+	background: 	#40E0D0;
+	font-size: 14px;
+	line-height: 18px;
+	font-family: verdana, sans-serif;
+	text-decoration: none;
+}
+
+
+.topContainer{
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 75px;
+		
+}
+
+.leftTopContainer{
+	height: 75px;
+	width: 500px;
+	float: left;
+	position: relative;
+}
+
+.rightTopContainer{
+	height: 75px;
+	width: 200px;	
+	float: right;
+	position: relative;
+}
+
+.rightTopContent{
+	position: absolute;
+	bottom: 0;
+	right: 0px;
+	margin-right: 10px;
+}
+
+.container {
+	background: white;
+	width: 700px;
+	min-height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.indexContainer {
+	background: white;
+	width: 700px;
+	min-height: 1000px;
+	margin-top:12px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+.inner-container {
+	margin-left: 25px;
+	background: white;
+	width: 675px;
+	position: absolute;
+	}
+	
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
